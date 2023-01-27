@@ -305,8 +305,7 @@
   .services .card p {
     text-align: center;
     line-height: 1.33333333em;
-    width: 100%;
-    opacity: .7;
+    width: 100%;    
   }
 }
 /* Inbetween */
