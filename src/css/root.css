@@ -180,7 +180,8 @@
   }
   #navigation .logo {
     display: inline-block;
-    height: 5rem;
+    height: 3rem;
+    width: auto
   }
   #navigation .logo img {
     width: auto;
