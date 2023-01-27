@@ -180,7 +180,7 @@
   }
   #navigation .logo {
     display: inline-block;
-    height: 1.875rem;
+    height: 4.875rem;
     width: auto;
   }
   #navigation .logo img {
@@ -625,8 +625,8 @@
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 3.125em;
-    margin-bottom: 1.875em;
+    height: 13.125em;
+    margin-bottom: .875em;
     text-align: center;
   }
   #footer .left-section .logo img {
@@ -765,7 +765,7 @@
   #footer .left-section .logo {
     text-align: left;
     margin-left: 0;
-    height: 4.375rem;
+    height: 14.375rem;
   }
   #footer .left-section p {
     text-align: left;
