@@ -183,7 +183,7 @@
   }
   #navigation .logo {
     display: inline-block;
-    height: 3rem;
+    height: 5rem;
     width: auto
   }
   #navigation .logo img {
@@ -620,15 +620,14 @@
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
-    margin: auto;
-    margin-bottom: 3.125rem;
+    margin: auto;    
     text-align: center;
   }
   #footer .left-section .logo {
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 13.125em;
+    height: 7.125em;
     margin-bottom: .875em;
     text-align: center;
   }
