@@ -621,19 +621,20 @@
   }
   #footer .left-section {
     margin: auto;    
+    margin-bottom: 3.125rem;
     text-align: center;
   }
   #footer .left-section .logo {
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 7.125em;
-    margin-bottom: .875em;
+    height: 3.125em;
+    margin-bottom: 1.875em;
     text-align: center;
   }
   #footer .left-section .logo img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     display: block;
   }
   #footer .left-section p {
