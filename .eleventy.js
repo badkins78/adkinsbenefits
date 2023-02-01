@@ -6,7 +6,7 @@ const path = require('path');
 
 // allows the use of {% image... %} to create responsive, optimised images
 // CHANGE DEFAULT MEDIA QUERIES AND WIDTHS
-async function imageShortcode(src, alt, className, loading, sizes = '(max-width: 600px) 400px, 600px') {
+async function imageShortcode(src, alt, className, loading, sizes = '(max-width: 600px) 400px, 850px') {
   // don't pass an alt? chuck it out. passing an empty string is okay though
   if (alt === undefined) {
     throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
@@ -14,7 +14,7 @@ async function imageShortcode(src, alt, className, loading, sizes = '(max-width:
 
   // create the metadata for an optimised image
   let metadata = await Image(`${src}`, {
-    widths: [200, 400, 600, 1920, 2500],
+    widths: [200, 400, 850, 1920, 2500],
     formats: ['webp', 'jpeg'],
     urlPath: '/images/',
     outputDir: './public/images',

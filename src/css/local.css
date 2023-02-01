@@ -224,6 +224,7 @@
     width: 100%;
     /* makes image act like a background image */
     object-fit: cover;
+    background-attachment:fixed;
   }
   #sbs-r .cs-picture1 {
     width: 32.625em;
@@ -436,7 +437,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover;    
   }
   #gallery .cs-row-1 .cs-picture-1 {
     width: 26.25em;

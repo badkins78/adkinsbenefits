@@ -40,14 +40,14 @@
     /* prevents the cursor from interacting with it */
     pointer-events: none;
   }
-  #hero .cs-picture img {
+  #hero .cs-picture img {   
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     /* Makes image act like a background-image */
-    object-fit: cover;
+    object-fit: cover;    
   }
   #hero .cs-container {
     width: 100%;
@@ -89,7 +89,7 @@
   }
   #hero .cs-topper {
     /* 13px - 16px */
-    font-size: clamp(2.8125rem, 1.6vw, 1rem);
+    font-size: clamp(0.8125rem, 1.6vw, 1rem);
     line-height: 1.2em;
     text-transform: uppercase;
     text-align: center;
@@ -236,12 +236,16 @@
 /* Desktop Parallax Effect - 1300px */
 @media only screen and (min-width: 81.25em) {
   #hero {
-    background: url("/images/pexels-andrea-piacquadio-3760067.jpg");
-    background-size: cover;
+    background: url("/assets/images/pexels-andrea-piacquadio-3760067.jpg");       
     background-position: center;
     background-repeat: no-repeat;
-    /* creates parallax effect on background image */
+    background-size: cover;    
     background-attachment: fixed;
+    /* creates parallax effect on background image */    
+    
+  }
+  #hero cs-picture img{
+    display: none;
   }
 }
 /* Dark Mode */
@@ -305,7 +309,8 @@
   .services .card p {
     text-align: center;
     line-height: 1.33333333em;
-    width: 100%;    
+    width: 100%;   
+    opacity: .7; 
   }
 }
 /* Inbetween */
