@@ -19,9 +19,7 @@
   #sbs .cs-left {
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
-    /* using ems so we can use font size to scale the whole section */
-    width: 39.4375em;
-    height: 39.75em;
+    /* using ems so we can use font size to scale the whole section */    
     position: relative;
   }
   #sbs .cs-picture {
