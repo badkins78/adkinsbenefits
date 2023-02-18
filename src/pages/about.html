@@ -3,7 +3,8 @@ layout: 'base.html'
 description: "Meta description for the page"
 metaTitle: 'Title that shows up on google searches'
 tagTitle: 'About'
-preloadImg: '/images/pexels-rodnae-productions-8173525.jpg'
+preloadImg: '/images/pexels-anna-shvets-5067733.jpg'
+preloadCSS: '/css/about.css'
 permalink: 'about/'
 eleventyNavigation:
     key: About Us
@@ -29,8 +30,8 @@ eleventyNavigation:
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
-      {% image './src/images/pexels-cottonbro-studio-5933920.jpg', 'cabinets'%}
-      {% image './src/images/pexels-karolina-grabowska-4386370.jpg', 'house'%}
+      {% image './src/images/pexels-cottonbro-studio-5933920.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}   
+      {% image './src/images/pexels-marcus-aurelius-6787215.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
@@ -67,5 +68,5 @@ eleventyNavigation:
         </p>
     <a href="/contact.html" class="button-solid">Free Estimate</a>
   </div>
-  {% image './src/images/pexels-marcus-aurelius-6787215.jpg', 'kitchen cabinets', 'cs-picture', 'lazy'%}
+  {% image './src/images/pexels-rodnae-productions-8173525.jpg', 'kitchen cabinets', 'cs-picture', 'lazy'%}
 </section>

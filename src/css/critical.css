@@ -244,7 +244,7 @@
     /* creates parallax effect on background image */    
     
   }
-  #hero cs-picture img{
+  #hero .cs-picture img{
     display: none;
   }
 }
