@@ -99,7 +99,7 @@
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
-    color: #767676;
+    color: #252525;
   }
   #sbs .cs-name {
     font-size: 1rem;
@@ -113,7 +113,7 @@
   #sbs .cs-job {
     font-size: 0.875rem;
     line-height: 1.5em;
-    color: #767676;
+    color: #1b1b1b;
     display: block;
   }
   #sbs .cs-quote-icon {
@@ -125,6 +125,17 @@
   }
   #sbs .button-solid {
     margin-top: 2rem;
+  }
+  .cs-text {
+    color: black;
+  }
+  
+  .final-thought {
+    width: 80%;
+    text-align: center;
+    border: 2px solid red;
+    display: block;
+    margin: auto;    
   }
 }
 /* Desktop - 1024px */
@@ -141,6 +152,7 @@
   #sbs .cs-right {
     margin: 0;
   }
+  
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
@@ -274,7 +286,7 @@
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     margin: 0 0 1rem;
-    color: #767676;
+    color: #1d1c1c;
   }
   #sbs-r .cs-name {
     font-size: 1rem;
