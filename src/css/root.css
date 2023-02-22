@@ -630,13 +630,12 @@
     width: auto;
     height: 10em;
     margin-bottom: auto;
-    text-align: center;
-    border: 2px solid blue
+    text-align: center;    
   }
   #footer .left-section .logo img {
     width: auto;
     height: 100%;
-    display: block;
+    display: block;    
   }
   #footer .left-section p {
     font-size: 0.875rem;
