@@ -63,14 +63,7 @@
 
 
 <!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-K8CN6D3YDH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-K8CN6D3YDH');
-</script>
 
     
     <body>
@@ -89,7 +82,7 @@
         and we used these body.scroll styles to create some on scroll 
         animations with the navbar
     -->
-        <script defer>
+        <script>
             document.addEventListener('scroll', (e) => {
                 const scroll = document.documentElement.scrollTop;
                 if (scroll >= 100) {
@@ -106,7 +99,14 @@
             });
         </script>
         <!-- Google tag (gtag.js) -->
-
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-K8CN6D3YDH"></script>
+        <script defer>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-K8CN6D3YDH');
+        </script>
 
 
     </body>
