@@ -9,7 +9,7 @@ tags:
 - post
 - featured
 
-image: /assets/images/blog/ladyOnSwing.jpg
+image: /assets/images/blog/ladyOnSwing.webp
 imageAlt: lady on a swing looking up at her husband
 ---
 Lots of folks new to Medicare find it overwhelming trying to navigate the different plan options available to them. I want to share some basics about Medicare Supplement plans and Medicare Advantage plans. <br><br>
