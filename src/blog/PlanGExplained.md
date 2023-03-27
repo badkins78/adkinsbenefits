@@ -1,15 +1,15 @@
 ---
-pageName: Adkins Benefits Blog
+pageName: Plan G Explained
 blogTitle: Plan G Explained
 titleTag: Adkins Benefits Blog
 blogDescription: A quick explanation of Medicare Supplement Plan G
 author: Bill Adkins
-date: 
+date: 2023-03-27
 tags:
 - post
 - featured
 
-image: /assets/images/blog/ladyOnSwing.webp
+image: /assets/images/blog/grandmotherandgranddaughterlookingoutwindow.webp
 imageAlt: lady on a swing looking up at her husband
 ---
 Medicare Supplement Plan G is a type of Medicare Supplement insurance plan that is designed to help cover some of the out-of-pocket costs associated with Original Medicare (Parts A and B). Medicare Supplement plans are also known as Medigap plans because they fill in the gaps left by Original Medicare.
