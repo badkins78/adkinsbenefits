@@ -1,7 +1,7 @@
 ---
 pageName: Plan G Explained
 blogTitle: Plan G Explained
-titleTag: Adkins Benefits Blog
+titleTag: A Quick Explanation of Medicare Supplement Plan G
 blogDescription: A quick explanation of Medicare Supplement Plan G
 author: Bill Adkins
 date: 2023-03-27

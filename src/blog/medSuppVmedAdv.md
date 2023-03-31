@@ -1,7 +1,7 @@
 ---
 pageName: Supplement V Advantage
 blogTitle: Differences Between Medicare Supplements and Medicare Advantage
-titleTag: Adkins Benefits Blog
+titleTag: Medicare Supplement Compared to Medicare Advantage
 blogDescription: Some information comparing Medicare Supplements to Medicare Advantage plans
 author: Bill Adkins
 date: 2022-12-16T19:45:03.587Z
