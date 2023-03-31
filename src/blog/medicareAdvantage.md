@@ -9,8 +9,8 @@ tags:
 - post
 - featured
 
-image: /assets/images/blog/ladyOnSwing.webp
-imageAlt: lady on a swing looking up at her husband
+image: /assets/images/blog/grandparents-holding-grandchildren.webp
+imageAlt: Elderly couple sitting outside, each holding a young child.
 ---
 A Medicare Advantage plan is a type of Medicare health plan that is offered by private insurance companies that have been approved by Medicare. Medicare Advantage plans provide all the benefits that are offered by original Medicare, but they may also offer additional benefits and services that are not covered by original Medicare.
 
