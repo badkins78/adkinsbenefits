@@ -7,7 +7,7 @@ author: Bill Adkins
 date: 2023-03-27
 tags:
 - post
-- featured
+
 
 image: /assets/images/blog/grandmotherandgranddaughterlookingoutwindow.webp
 imageAlt: lady on a swing looking up at her husband
