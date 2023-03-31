@@ -1,7 +1,7 @@
 ---
 pageName: Medicare Advantage
-blogTitle: What is Medicare Advantage(Part C)?
-titleTag: What is Medicare Advantage(Part C)?
+blogTitle: What is Medicare Advantage?
+titleTag: What is Medicare Advantage?
 blogDescription: A detailed explanation of Medicare Advantage(Part C)
 author: Bill Adkins
 date: 2023-03-31
