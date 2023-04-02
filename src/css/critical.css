@@ -1,6 +1,4 @@
-/*-- -------------------------- -->
-<---           Hero             -->
-<--- -------------------------- -*/
+/* Hero */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #hero {
@@ -254,9 +252,7 @@
     opacity: .8;
   }
 }
-/*-- -------------------------- -->
-<---          Services          -->
-<--- -------------------------- -*/
+/* Services */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   .services {

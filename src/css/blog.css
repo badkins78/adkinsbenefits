@@ -1,6 +1,4 @@
-/*-- -------------------------- -->
-<---        Core Styles         -->
-<--- -------------------------- -*/
+/* Core Styles */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   :root {
@@ -62,9 +60,7 @@
     opacity: 1;
   }
 }
-/*-- -------------------------- -->
-<---           Header           -->
-<--- -------------------------- -*/
+/* Header */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #header {
@@ -114,9 +110,7 @@
     object-fit: cover;
   }
 }
-/*-- -------------------------- -->
-<---   Interior Page Header     -->
-<--- -------------------------- -*/
+/* Interior Page Header */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #int-hero {
@@ -198,9 +192,7 @@
     font-size: inherit;
   }
 }
-/*-- -------------------------- -->
-<---        Main Content        -->
-<--- -------------------------- -*/
+/* Main Content */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   .blog-container {
@@ -230,9 +222,7 @@
     column-gap: 1.25em;
   }
 }
-/*-- -------------------------- -->
-<---    Recent Blog Articles    -->
-<--- -------------------------- -*/
+/* Recent Blog Articles */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   .recent-articles {
@@ -395,9 +385,7 @@
     color: #9dafe5;
   }
 }
-/*-- -------------------------- -->
-<---          Sidebar           -->
-<--- -------------------------- -*/
+/* Sidebar */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   .blog-sidebar {
@@ -496,9 +484,7 @@
     max-width: 22.5em;
   }
 }
-/*-- -------------------------- -->
-<---        Blog Articles       -->
-<--- -------------------------- -*/
+/* Blog Articles */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   .blog-article {
@@ -628,9 +614,7 @@
     border-radius: 0.5rem;
   }
 }
-/*-- -------------------------- -->
-<---           Footer           -->
-<--- -------------------------- -*/
+/* Footer */
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #cs-footer {

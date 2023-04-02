@@ -1,8 +1,6 @@
-/*-- -------------------------- -->
-<---        Core Styles         -->
-<--- -------------------------- -*/
+/*Core Styles*/
 /* Mobile */
-@media only screen and (min-width: 0em) {
+@media only screen and (min-width: 0em){
   :root {
     --primary: #1975ff;
     --primaryShade: #ffd675;
@@ -152,9 +150,7 @@
     font-size: .85vw;
   }
 }
-/*-- -------------------------- -->
-<---         Navigation         -->
-<--- -------------------------- -*/
+/* Navigation */
 /* Mobile - Top Drop Down */
 @media only screen and (max-width: 1023px) {
   #navigation {
@@ -522,9 +518,7 @@
     color: var(--primary);
   }
 }
-/*-- -------------------------- -->
-<---   Interior Page Header     -->
-<--- -------------------------- -*/
+/* Interior Page Header */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #int-hero {
@@ -606,9 +600,7 @@
     font-size: inherit;
   }
 }
-/*-- -------------------------- -->
-<---           Footer           -->
-<--- -------------------------- -*/
+/* Footer */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #footer {

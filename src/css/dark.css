@@ -1,6 +1,4 @@
-/*-- -------------------------- -->
-<---      Core Dark Styles      -->
-<--- -------------------------- -*/
+/* Core Dark Styles */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
@@ -31,9 +29,7 @@
     display: none;
   }
 }
-/*-- -------------------------- -->
-<---      Dark Mode Toggle      -->
-<--- -------------------------- -*/
+/* Dark Mode Toggle */
 /* Mobile */
 @media only screen and (min-width: 0em) {
   body.dark-mode #dark-mode-toggle .sun {
