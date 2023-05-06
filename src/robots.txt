@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://www.adkinsbenefits.com/sitemap.njk
+Sitemap: https://www.adkinsbenefits.com/sitemap.xml
