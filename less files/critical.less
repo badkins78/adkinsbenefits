@@ -11,8 +11,8 @@
         /* Centers button */
         text-align: center;
         /* changes on tablet */
-        padding: 0 16/16rem;
-        padding-bottom: 100/16rem;
+        padding: 0 1rem;
+        padding-bottom: 6.25rem;
         position: relative;
         z-index: 1;
         /* prevents overflow from the lines extending past the screen width */
@@ -57,11 +57,11 @@
 
         .cs-container {
             width: 100%;
-            max-width: 1280/16em;
+            max-width: 80em;
             /* we put the padding top and bottom on the container instead of #Hero so the pseudo element lines go to the top and bottom of the section */
             /* 144px - 280px - leaving extra space for the navigation */
             /* changes on tablet */
-            padding: clamp(9em, 25.95vw, 17.5em) 0 ;
+            padding: clamp(9em, 25.95vw, 17.5em) 0;
             margin: auto;
             position: relative;
 
@@ -96,20 +96,20 @@
 
         .cs-topper {
             /* 13px - 16px */
-            font-size: clamp(.8125rem, 1.6vw, 1rem);
+            font-size: clamp(0.8125rem, 1.6vw, 2rem);
             line-height: 1.2em;
             text-transform: uppercase;
             text-align: center;
             letter-spacing: .1em;
             font-weight: 700;
             color: var(--primary);
-            margin-bottom: 16/16rem;
+            margin-bottom: 1rem;
             display: block;
         }
 
         .cs-title {
             /* 39px - 61px */
-            font-size: clamp(2.4375rem, 6.40vw, 3.8125rem);
+            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
             font-weight: 900;
             line-height: 1.2em;
             text-align: center;
@@ -134,13 +134,13 @@
         }
 
         .cs-button-solid {
-            font-size: 16/16rem;
+            font-size: 1rem;
             /* 46px - 56px */
             line-height: clamp(2.875em, 5.5vw, 3.5em);
-            width: 180/16rem;
+            width: 11.25rem;
             text-decoration: none;
 	    	font-weight: 700;
-            margin: 0 8/16rem 16/16rem 8/16rem;
+            margin: 0 0.5rem 1rem 0.5rem;
             color: var(--headerColor);
             padding: 0;
             background-color: var(--primary);
@@ -172,15 +172,15 @@
         }
 
         .cs-button-transparent {
-            font-size: 16/16rem;
+            font-size: 1rem;
             /* 46px - 56px */
             line-height: clamp(2.875em, 5.5vw, 3.5em);
-            width: 180/16rem;
+            width: 11.25rem;
             /* 46px - 56px */
             height: clamp(2.875em, 5.5vw, 3.5em);
             text-decoration: none;
 	    	font-weight: 700;
-            margin: 0 8/16rem;
+            margin: 0 0.5rem;
             color: #fff;
             padding: 0;
             background-color: transparent;
@@ -218,7 +218,7 @@
 
             .cs-img {
                 display: block;
-                margin-right: 12/16rem;
+                margin-right: 0.75rem;
             }
         }
     }
@@ -249,7 +249,7 @@
 
         .cs-button-solid {
             margin-bottom: 0;
-            margin-right: 20/16rem;
+            margin-right: 1.25rem;
         }
     }
 }
