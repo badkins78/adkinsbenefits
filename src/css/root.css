@@ -613,7 +613,7 @@
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
-    margin: auto;    
+    margin-top: 3.125rem;    
     margin-bottom: 3.125rem;
     text-align: center;
   }
@@ -629,6 +629,8 @@
     width: auto;
     height: 100%;
     display: block;    
+    margin-top: 3.125rem;
+    margin-bottom: 3.125 rem;
   }
   #footer .left-section p {
     font-size: 0.875rem;
@@ -754,7 +756,7 @@
     padding: 0;
   }
   #footer .left-section {
-    width: 25.5625rem;
+    width: 38rem;
     margin: 0;
     text-align: left;
   }
