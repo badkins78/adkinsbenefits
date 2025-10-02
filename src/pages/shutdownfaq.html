@@ -10,28 +10,14 @@ eleventyNavigation:
 ---
 
 <!-- Enter html code below -->
-<div id="adobe-dc-view"></div>
-
- <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
-
- <script type="text/javascript">
-
-    document.addEventListener("adobe_dc_view_sdk.ready", function()
-
-    {
-
-        var adobeDCView = new AdobeDC.View({clientId: "783c7a4b0bfb48f58ed00d254433a916", divId: "adobe-dc-view"});
-
-        adobeDCView.previewFile(
-
-       {
-
-          content:   {location: {url: "https://www.adkinsbenefits.com/government_shutdown_faq.pdf"}},
-
-          metaData: {fileName: "government_shutdown_faq.pdf"}
-
-       });
-
-    });
-
- </script>
+<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "783c7a4b0bfb48f58ed00d254433a916", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://www.adkinsbenefits.com/government_shutdown_faq.pdf"}},
+			metaData:{fileName: "government_shutdown_faq.pdf"}
+		}, {embedMode: "SIZED_CONTAINER"});
+	});
+</script>
