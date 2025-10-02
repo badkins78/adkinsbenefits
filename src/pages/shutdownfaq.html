@@ -6,15 +6,31 @@ tagTitle: 'Government Shutdown FAQ'
 preloadImg: '/images/signing-the-contract-1920w.webp'
 preloadCSS: '/css/local.css'
 permalink: 'shutdownfaq/'
-eleventyNavigation:
-    key: Shutdown FAQ
-    order: 700
----
+
 
 <!-- Enter html code below -->
-<section id="shutdownfaq">
-    <object data="/images/Government Shutdown FAQ.pdf" type="application/pdf" width="100%" height="100%">
-        <p>Unable to display PDF file. <a href="/images/Government Shutdown FAQ.pdf">Download</a> instead
-        </p>
-    </object>
-</section>
+<div id="adobe-dc-view"></div>
+
+ <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+
+ <script type="text/javascript">
+
+    document.addEventListener("adobe_dc_view_sdk.ready", function()
+
+    {
+
+        var adobeDCView = new AdobeDC.View({clientId: "<adkinsbenefits>", divId: "adobe-dc-view"});
+
+        adobeDCView.previewFile(
+
+       {
+
+          content:   {location: {url: "/images/Government Shutdown FAQ.pdf"}},
+
+          metaData: {fileName: "Government Shutdown FAQ.pdf"}
+
+       });
+
+    });
+
+ </script>
