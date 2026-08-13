@@ -583,3 +583,133 @@
    }
  }
  
+ /* ============================================ */
+/*        Mortgage Protection Contact Form      */
+/* ============================================ */
+
+#mortgage-contact {
+  padding: var(--sectionPadding);
+  background: #f7f7f7;
+}
+
+#mortgage-contact .mortgage-contact-container {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+#mortgage-contact .mortgage-contact-intro {
+  margin-bottom: 1.5rem;
+}
+
+#mortgage-contact .mortgage-contact-topper {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--topperFontSize);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: blue;
+}
+
+#mortgage-contact h2 {
+  margin: 0 0 1rem;
+  font-size: var(--headerFontSize);
+  line-height: 1.2em;
+  color: var(--headerColor);
+}
+
+#mortgage-contact p {
+  margin: 0;
+  font-size: var(--bodyFontSize);
+  line-height: 1.5em;
+  color: var(--bodyTextColor);
+}
+
+#mortgage-contact form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+#mortgage-contact label {
+  font-weight: 700;
+  color: var(--headerColor);
+}
+
+#mortgage-contact label span {
+  font-weight: 400;
+}
+
+#mortgage-contact input,
+#mortgage-contact select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.85rem 1rem;
+  border: 1px solid #c7c7c7;
+  border-radius: 0.5rem;
+  font: inherit;
+  background: #ffffff;
+}
+
+#mortgage-contact input:focus,
+#mortgage-contact select:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+#mortgage-contact .button-solid {
+  margin-top: 0.75rem;
+  border: none;
+  cursor: pointer;
+  justify-self: start;
+}
+
+@media only screen and (max-width: 48rem) {
+  #mortgage-contact .mortgage-contact-container {
+    padding: 1.5rem;
+  }
+
+  #mortgage-contact .button-solid {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ============================================ */
+/*     Mortgage Contact Form - Dark Mode        */
+/* ============================================ */
+
+body.dark-mode #mortgage-contact {
+  background: var(--dark);
+}
+
+body.dark-mode #mortgage-contact .mortgage-contact-container {
+  background: var(--medium);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-mode #mortgage-contact .mortgage-contact-topper {
+  color: var(--primaryLight);
+}
+
+body.dark-mode #mortgage-contact h2,
+body.dark-mode #mortgage-contact p,
+body.dark-mode #mortgage-contact label {
+  color: var(--bodyTextColorWhite);
+}
+
+body.dark-mode #mortgage-contact input,
+body.dark-mode #mortgage-contact select {
+  color: var(--bodyTextColorWhite);
+  background: var(--dark);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+body.dark-mode #mortgage-contact input:focus,
+body.dark-mode #mortgage-contact select:focus {
+  outline-color: var(--primaryLight);
+}
