@@ -46,16 +46,6 @@
     left: 0;
     top: 0;
   }
-  #sbs .cs-picture2 {
-    width: 25.875em;
-    height: 25em;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
-    /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
-    right: 0;
-    bottom: 0;
-  }
   #sbs .cs-right {
     margin: auto;
     max-width: 33.875rem;
@@ -94,44 +84,6 @@
   #sbs .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-  #sbs .cs-flex-group {
-    /* 16px - 32px */
-    padding: clamp(1rem, 3vw, 2rem);
-    background-color: #F7F7F7;
-    border-radius: 1rem;
-    position: relative;
-  }
-  #sbs .cs-flex-p {
-    /* 14px - 16px */
-    font-size: clamp(0.875rem, 1.5vw, 1rem);
-    line-height: 1.5em;
-    margin: 0 0 1rem;
-    color: #767676;
-  }
-  #sbs .cs-name {
-    font-size: 1rem;
-    line-height: 1.2em;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 0 0 0.25rem;
-    color: var(--headerColor);
-    display: block;
-  }
-  #sbs .cs-job {
-    font-size: 0.875rem;
-    line-height: 1.5em;
-    color: #767676;
-    display: block;
-  }
-  #sbs .cs-quote-icon {
-    /* 60px - 136px */
-    width: clamp(3.75rem, 10vw, 8.5rem);
-    height: auto;
-    position: absolute;
-    bottom: 0rem;
-    /* 16px - 32px */
-    right: clamp(1rem, 4vw, 2rem);
-  }
   #sbs .button-solid {
     margin-top: 2rem;
   }
@@ -158,32 +110,108 @@
   body.dark-mode #sbs .cs-left:after {
     background: var(--accent);
   }
-  body.dark-mode #sbs .cs-picture2 {
-    background-color: var(--dark);
-    /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
-  }
   body.dark-mode #sbs .cs-topper {
     color: var(--primaryLight);
   }
   body.dark-mode #sbs .cs-title,
-  body.dark-mode #sbs .cs-text,
-  body.dark-mode #sbs .cs-h3,
-  body.dark-mode #sbs .cs-flex-p,
-  body.dark-mode #sbs .cs-name {
+  body.dark-mode #sbs .cs-text {
     color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbs .cs-flex-group {
-    background-color: var(--accent);
-  }
-  body.dark-mode #sbs .cs-job {
-    color: var(--bodyTextColorWhite);
-    opacity: .8;
-  }
-  body.dark-mode #sbs .cs-quote-icon {
-    opacity: .2;
   }
 }
+
+/*-- -------------------------- -->
+<---      About Values         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #about-values {
+    padding: var(--sectionPadding);
+  }
+
+  #about-values .about-values-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+  }
+
+  #about-values .cs-topper {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: var(--topperFontSize);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--primary);
+  }
+
+  #about-values .cs-title {
+    max-width: 44rem;
+    margin: 0 auto 2.5rem;
+    font-size: var(--headerFontSize);
+    line-height: 1.2;
+    font-weight: 900;
+    text-align: center;
+    color: var(--headerColor);
+  }
+
+  #about-values .about-values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  #about-values .about-value {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: #f7f7f7;
+  }
+
+  #about-values .about-value h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: var(--headerColor);
+  }
+
+  #about-values .about-value p {
+    margin: 0;
+    font-size: var(--bodyFontSize);
+    line-height: 1.6;
+    color: var(--bodyTextColor);
+  }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+  #about-values .about-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #about-values .about-value {
+    padding: 2rem;
+  }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #about-values .cs-topper {
+    color: var(--primaryLight);
+  }
+
+  body.dark-mode #about-values .cs-title,
+  body.dark-mode #about-values .about-value h3,
+  body.dark-mode #about-values .about-value p {
+    color: var(--bodyTextColorWhite);
+  }
+
+  body.dark-mode #about-values .about-value {
+    background: var(--medium);
+  }
+}
+
 /*-- -------------------------- -->
 <---    Final Call To Action    -->
 <--- -------------------------- -*/
