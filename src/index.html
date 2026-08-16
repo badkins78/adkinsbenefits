@@ -19,13 +19,27 @@ eleventyNavigation:
 <section id="hero">
   <div class="cs-container">  
     <div class="cs-flex-group">
-      <span class="cs-topper">Adkins Benefits</span>
-      <h1 class="cs-title">Your Trusted Insurance Advocate Since 2010</h1>      
-      <p class="cs-text">There's never a charge for our services, so if you are ready to save time and find the best product at the best price, we are here to offer zero-pressure guidance. Skip all the hassle, give us a call and let's chat about how we can help you protect the things in life that matter most to you(and us!).<br>
-        <span class="hero-num">(512) 524-9826</span>
-        <span class="hero-num">(512) 270-8618</span>
+      <h1 class="cs-title">
+        Medicare, Health & Life Insurance Without the Confusion
+      </h1>
+
+      <p class="cs-text">
+        We help individuals and families compare coverage, understand their options,
+        and find insurance that fits their needs and budget. There is never a charge
+        for our services and never any pressure to make a change.
       </p>
-      <a href="/contact/" class="cs-button-solid">Contact Us</a>        
+
+      <div class="hero-actions">
+        <a href="/contact/" class="cs-button-solid">Review My Options</a>
+
+        <a href="tel:{{ client.phone }}" class="cs-button-transparent">
+          Call {{ client.phoneFormatted }}
+        </a>
+      </div>
+
+      <p class="hero-support">
+        Serving clients since 2010
+      </p>
     </div>
   </div>
 
@@ -38,48 +52,61 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="services" class="services">
-  <!-- Get Icons From flaticon.com -->
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
         src="/assets/svgs/people-group-svgrepo-com.svg"
-        alt="appliance"
+        alt=""
         width="48"
         height="48"
-/>
+      />
     </picture>
-    <h2>Individual and Family Plans</h2>
-    <p>We don't just help with the best Medicare and Life Insurance policies. We can help you and your family find the best health insurance plans for your situation. These health insurance plans are great, and may not be as expensive as you think. You may qualify for discounts depending on your income and other factors. Let's talk today and review the best policies available in your area, all at no cost to you.</p>
+    <h2>Health Insurance</h2>
+    <p>
+      Compare individual and family health plans and understand which options fit
+      your needs, budget, and location.
+    </p>
+    <a href="/contact/" class="service-link">Explore Health Coverage</a>
   </div>
+
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
         src="/assets/svgs/exercise-svgrepo-com.svg"
-        alt="appliance"
+        alt=""
         width="48"
         height="48"
-/>
+      />
     </picture>
-    <h2>Senior Benefits</h2>
-    <p>Since 2010, we have specialized in benefits for those on Medicare; all at no cost to our clients. Don't get stressed out over your Medicare Supplement, Medicare Advantage and Medicare Part D options. We can make it a simple and seamless transition from your group benefits into the best Medicare Supplement Plan in your area. We will review your current Medicare coverage and compare with options in your specific area, and of course there is never a charge for our services. Let us make sure you aren't paying too much for your Medicare plans today.</p>
+    <h2>Medicare</h2>
+    <p>
+      Get help comparing Medicare Supplement, Medicare Advantage, and Part D
+      options without trying to sort through everything on your own.
+    </p>
+    <a href="/medicare/" class="service-link">Explore Medicare Options</a>
   </div>
+
   <div class="card">
     <picture>
       <img
         aria-hidden="true"
         decoding="async"
         src="/assets/svgs/house-shield-svgrepo-com.svg"
-        alt="appliance"
+        alt=""
         width="48"
         height="48"
-/>
+      />
     </picture>
-    <h2>Life Insurance</h2>
-    <p>Once you have a great health insurance plan, or a great Medicare Supplement option, you want to make sure that you aren't risking your family losing your home if something were to happen to you. We will make sure that your assets are protected in case you pass away, or become disabled and can no longer work. These options include Mortgage Protection Plans which can help your family preserve your assets, and even provide living benefits in case you can't work. You may not be able to do your job, but you will have income protection to make sure what is yours stays yours. We also offer Whole Life insurance, Term Life products, IULs and annuities. There is no need for you to figure this out on your own. Let us walk you through a simplified process of reviewing your options all at no cost to you! Call today. (512) 524-9826 or (512) 270-8618</p>
+    <h2>Life & Mortgage Protection</h2>
+    <p>
+      Protect your family, income, and home with life insurance and mortgage
+      protection options tailored to your situation.
+    </p>
+    <a href="/mortgageprotection/" class="service-link">Explore Protection Options</a>
   </div>
 </section>
 
@@ -95,50 +122,27 @@ eleventyNavigation:
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
-      <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">What We Do</h2>
+      <span class="cs-topper">About Adkins Benefits</span>
+      <h2 class="cs-title">Insurance Guidance Built Around You</h2>
+
       <p class="cs-text">
-        Since 2010, we have worked diligently to make sure our clients have the best insurance available for their situation. Whether it's Mortgage Protection, Whole Life, Accidental, Term Life, Universal Index, individual or family health insurance, Medicare Supplement, Medicare Advantage, Part D, or Dental, we will shop the market for the best available plan in your area so you don't have to. There is never a charge for our services.  
+        Since 2010, we have helped individuals and families compare insurance options
+        without the pressure or confusion that often comes with shopping for coverage.
+        We take the time to understand your needs, budget, and current benefits before
+        recommending anything.
       </p>
+
       <p class="cs-text">
-        In many cases, you may already have the best insurance plan. On every appointment, we review your current benefits to make sure that you aren't paying too much and that your coverage is still the best policy for your needs. What may have been the best insurance plan earlier in your life may no longer be a great insurance plan. However, many times we find that the exact same coverage is available at a lower cost. Either way, you won't have to worry about which plan is best, or if there is a great policy available in your area. Call now to make sure you aren't paying too much! (512) 524-9826 or (512) 270-8618.
+        Sometimes that means finding a better option. Other times, it means confirming
+        that the coverage you already have is still the right fit. Either way, our goal
+        is to make the process easier and give you the information you need to make a
+        confident decision.
       </p>
-      
-      <a href="/contact/" class="button-solid">Send Us A Message</a>
+
+      <a href="/contact/" class="button-solid">Review My Coverage</a>
     </div>
   </div>
 </section>
-
-<!-- ============================================ -->
-<!--            Extra Content To Rank             -->
-<!-- ============================================ -->
-
-<section id="sbs-r">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      {% image './src/images/older-couple-on-dock-looking-at-wine-bottle.jpg', 'An older couple on a boat dock looking at a bottle of wine.', 'cs-picture cs-picture1', 'lazy', '(max-width:600px) 250px, 850px'%}
-      {% image './src/images/lady-sitting-cross-leg-on-yoga-mat.jpg', 'An older lady sitting cross-leg on a yoga mat.', 'cs-picture cs-picture2', 'lazy', '(max-width:600px) 250px, 850px'%}
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">Did You Know</span>
-      <h2 class="cs-title">Medicare Supplements Are Standardized</h2>
-      <p class="cs-text">
-        Since 1992, the U.S. Government has mandated that all Medicare Supplements be standardized. That means it does not matter which company you choose for your plan. The coverage is guaranteed to be exactly the same. In many states, you can even change plans with no health questions!
-      </p>
-      <p class="cs-text">
-        The best part is, in addition to saving money every month on your premium, you do not have to change doctors, or wonder if you are in network. Medicare supplements are nationwide and work exactly the same, no matter what. Let's make sure you aren't paying too much. Don't worry about broker fees or any charge for our services. Should we find you a better plan and/or a lower premium, we are paid by the insurance company, not you. Call now to review. (512) 524-9826 or (512) 270-8618
-      </p>
-      <a href="/medicare/" class="button-solid">Medicare Options</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
-
 
 
 <!-- ============================================ -->
@@ -150,7 +154,8 @@ eleventyNavigation:
     <span class="cs-topper">Our Reviews</span>
     <h2 class="cs-title">Words From Our Customers</h2>
     <p class="cs-text">
-      See what some of our clients have to say about our ability to help explain the process, evaluate their needs and find the best available coverage, while making the process simple.
+      See what clients have to say about working with us to understand their options,
+      compare coverage, and make the insurance process easier.
     </p>
     <ul class="cs-card-group">
       <!-- Review 1 -->
@@ -224,14 +229,18 @@ eleventyNavigation:
 <section id="cta">
   <div class="container">
     <h2 class="title">
-      Get It Done <br/>
-      With Us Today
+      Ready to Review Your Options?
     </h2>
-    <h2 class="number">512-524-9826 or 512-270-8618</h2>
+    <h2 class="number">
+      {{ client.phoneFormatted }}
+    </h2>
+
     <p>
-      Call us or send us a message <strong>today</strong> so we can schedule a time to review your coverage. No charge. No pressure. No gimmicks. Just an honest evaluation of your coverage. Let's make sure you have the very best insurance policy you can, and you aren't paying too much for it.
+      Call or send us a message to review your current coverage and available options.
+      There is no charge for our services and no pressure to make a change.
     </p>
-    <a href="/contact/" class="button-solid">Get A Quote Now</a>
+
+    <a href="/contact/" class="button-solid">Start My Review</a>
   </div>
   {% image './src/images/signing-the-contract.jpg', 'Someone holding a pen and contract to be signed.', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>

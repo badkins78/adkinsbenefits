@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- Google Tag Manager -->
-         
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8CN6D3YDH"></script>
 <script>
@@ -18,10 +18,10 @@
         <meta http-equiv="cache-control" content="must-revalidate" max-age="31536000">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="facebook-domain-verification" content="oe3cctyd3coo57i18a9nurffrx7vqy" />        
+        <meta name="facebook-domain-verification" content="oe3cctyd3coo57i18a9nurffrx7vqy" />
         <!--Swap our for actual link-->
         <link rel="canonical" href="https://{{ client.domain }}{{page.url}}">
-        <meta name="description" content="{{ description }}">        
+        <meta name="description" content="{{ description }}">
         <!--Social Media Display-->
         <meta property="og:title" content="{{ metaTitle }}"/>
         <meta property="og:description" content="{{ description }}"/>
@@ -41,21 +41,15 @@
         <link rel="preload" as="image" href="{{ preloadImg }}"/>
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
-        <link rel="preload" href="/css/critical.css" as="style" onload="this.onload=null; this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/css/critical.css"></noscript>
-        <link rel="stylesheet" href="/css/critical.css"/>
-        <link rel="preload" href="/css/root.css" as="style" onload="this.onload=null; this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/css/root.css"></noscript>
-        <link rel="stylesheet" href="/css/root.css">
-        <link rel="preload" href="/css/dark.css" as="style" onload="this.onload=null; this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="/css/dark.css"></noscript>
-        <link rel="stylesheet" href="/css/dark.css">
-        <link rel="preload" href="{{ preloadCSS }}" as="style" onload="this.onload=null; this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="{{ preloadCSS }}"></noscript>
-        
-        <!-- Loading in page specific CSS sheets from css block -->
-        
-        <link rel="stylesheet" href="{{ preloadCSS }}">
+        <!-- Global styles -->
+         <link rel="stylesheet" href="/css/root.css">
+         <link rel="stylesheet" href="/css/dark.css">
+
+         <!-- Page-specific styles -->
+          {% if preloadCSS %}
+          <link rel="stylesheet" href="{{ preloadCSS }}">
+          {% endif %}
+
         <!--Put analytics tag here at the bottom to prevent it from render blocking-->
         <link rel="preconnect" href="https://www.google-analytics.com">
         <!-- For home page, use full title, including location for SEO. Other pages should just include the page name -->
@@ -65,7 +59,7 @@
             {% else %}
                 {{ tagTitle }} | {{ client.name }}
             {% endif %}
-        </title>        
+        </title>
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
@@ -81,7 +75,7 @@
         <script defer src="/assets/js/dark.js"></script>
         <!--
         This script adds a class to the body after scrolling 100px
-        and we used these body.scroll styles to create some on scroll 
+        and we used these body.scroll styles to create some on scroll
         animations with the navbar
     -->
         <script>
@@ -99,6 +93,6 @@
                         .remove('scroll')
                 }
             });
-        </script>        
+        </script>
         </body>
 </html>

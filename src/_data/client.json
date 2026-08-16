@@ -5,11 +5,13 @@
   "phoneFormatted": "(512) 524-9826",
   "address": {
     "lineOne": "PO BOX 171163",
-    "lineTwo":"",
+    "lineTwo": "",
     "city": "Austin",
     "county": "TX",
     "postcode": "78717",
     "mapLink": "https://goo.gl/maps/F2W2MRNK8jRm3q787"
   },
-  "domain": "adkinsbenefits.com"
+  "domain": "adkinsbenefits.com",
+  "phoneSecondary": "512-270-8618",
+  "phoneSecondaryFormatted": "(512) 270-8618"
 }

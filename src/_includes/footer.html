@@ -43,14 +43,15 @@
                         <h2>Contact</h2>
                     </li>
                     <li>
-                        PO BOX 171163<br>Austin, TX 78717
+                        {{ client.address.lineOne }}<br>
+                        {{ client.address.city }}, {{ client.address.county }} {{ client.address.postcode }}
                     </li>
                     <li>
-                        <a href="tel:512-524-9826">T: (512) 524-9826</a>
-                        <a href="tel:512-270-8618">T: (512) 270-8618</a>
+                        <a href="tel:{{ client.phone }}">T: {{ client.phoneFormatted }}</a>
+                        <a href="tel:{{ client.phoneSecondary }}">T: {{ client.phoneSecondaryFormatted }}</a>
                     </li>
                     <li>
-                        <a href="mailto:bill@adkinsbenefits.com">Click to Email</a>
+                        <a href="mailto:{{ client.email }}">Click to Email</a>
                     </li>
                 </ul>
             </div>
