@@ -63,16 +63,18 @@ eleventyNavigation:
     <div class="cs-right-section">
       <!--Email-->
       <span class="cs-header">Email</span>
-      <a class="cs-link" href="mailto:bill@adkinsbenefits.com">bill@adkinsbenefits.com</a>
+      <a class="cs-link" href="mailto:{{ client.email }}">{{ client.email }}</a>
       <!--Phone-->
       <span class="cs-header">Phone</span>
-      <a class="cs-link" href="tel:512-524-9826">512-524-9826</a>
-      <a class="cs-link" href="tel:512-270-8618">512-270-8618</a>
+      <a class="cs-link" href="tel:{{ client.phone }}">{{ client.phoneFormatted }}</a>
+      <a class="cs-link" href="tel:{{ client.phoneSecondary }}">{{ client.phoneSecondaryFormatted }}</a>
       <!--Address-->
       <span class="cs-header">Address</span>
       <span class="cs-link cs-address">
-        PO Box 171163
-        <span class="cs-block">Austin, TX 78717</span>
+        {{ client.address.lineOne }}
+        <span class="cs-block">
+          {{ client.address.city }}, {{ client.address.county }} {{ client.address.postcode }}
+        </span>
       </span>
     </div>
   </div>
