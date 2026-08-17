@@ -22,6 +22,27 @@
         <!--Swap our for actual link-->
         <link rel="canonical" href="https://{{ client.domain }}{{page.url}}">
         <meta name="description" content="{{ description }}">
+        {% if page.url == '/' %}
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "{{ client.name }}",
+                "url": "https://{{ client.domain }}/",
+                "logo": "https://{{ client.domain }}/images/PNG-Transparent-100x100.png",
+                "email": "{{ client.email }}",
+                "telephone": "{{ client.phone }}",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "{{ client.address.lineOne }}",
+                    "addressLocality": "{{ client.address.city }}",
+                    "addressRegion": "{{ client.address.county }}",
+                    "postalCode": "{{ client.address.postcode }}",
+                    "addressCountry": "US"
+                }
+            }
+        </script>
+        {% endif %}
         <!--Social Media Display-->
         <meta property="og:title" content="{{ metaTitle }}"/>
         <meta property="og:description" content="{{ description }}"/>
