@@ -545,6 +545,10 @@
   padding: clamp(1.5rem, 3vw, 2.5rem);
 }
 
+body.dark-mode #main {
+  color: var(--bodyTextColorWhite);
+}
+
 body.dark-mode .section-surface {
   background: var(--dark);
 }

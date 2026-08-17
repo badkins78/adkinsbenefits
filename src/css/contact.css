@@ -286,6 +286,12 @@
   body.dark-mode #cs-contact {
     background: var(--dark);
   }
+  body.dark-mode #cs-contact .cs-topper {
+    color: #fff;
+  }
+  body.dark-mode #cs-contact .cs-button-solid {
+    color: #000;
+  }
   body.dark-mode #cs-contact #cs-form {
     background: var(--medium);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
