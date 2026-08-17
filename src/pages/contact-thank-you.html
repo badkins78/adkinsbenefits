@@ -1,0 +1,36 @@
+---
+layout: 'base.html'
+description: 'Thank you for contacting Adkins Benefits.'
+metaTitle: 'Adkins Benefits | Thank You'
+tagTitle: 'Thank You'
+permalink: 'contact/thank-you/'
+---
+
+<section id="int-hero">
+  <h1 id="home-h">Thank You</h1>
+</section>
+
+<section class="section-surface">
+  <div class="content-card" style="max-width: 48rem; margin: 0 auto;">
+    <h2>We Received Your Message</h2>
+
+    <p>
+      Thanks for reaching out. We'll follow up personally to discuss your
+      questions and next steps.
+    </p>
+
+    <a href="/" class="button-solid">Return to Home</a>
+  </div>
+</section>
+
+<script>
+    if (sessionStorage.getItem('contact_form_submitted') === 'true') {
+        sessionStorage.removeItem('contact_form_submitted');
+
+        loadAnalytics();
+
+        gtag('event', 'generate_lead', {
+            lead_type: 'contact_form'
+        });
+    }
+</script>
