@@ -383,17 +383,28 @@
   body.dark-mode #services {
     background: var(--medium);
   }
+
   body.dark-mode #services .card {
     background: var(--medium);
     border-color: rgba(255, 255, 255, 0.12);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
   }
+
   body.dark-mode #services picture {
     background: var(--primaryDark);
   }
+
   body.dark-mode #services h2 {
     color: #fff;
     font-weight: bold;
+  }
+
+  body.dark-mode #services .card p {
+    color: var(--bodyTextColorWhite);
+  }
+
+  body.dark.mode #services .service-link {
+    color: var(--primaryLight);
   }
 }
 
@@ -562,7 +573,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -604,7 +615,7 @@
     text-align: center;
     letter-spacing: .1em;
     font-weight: 700;
-    color: var(--primary);
+    color: var(--primaryLight);
     margin-bottom: 1rem;
     display: block;
   }
