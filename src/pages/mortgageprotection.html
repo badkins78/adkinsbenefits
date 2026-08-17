@@ -49,7 +49,7 @@ eleventyNavigation:
       id="mortgage-contact-form"
       name="Mortgage Protection Request"
       method="post"
-      action="/mortgageprotection/"
+      action="/mortgageprotection/thank-you/"
       data-netlify="true"
     >
       <input
@@ -377,4 +377,20 @@ eleventyNavigation:
       mailerMessage.hidden = false;
     }
   })();
+</script>
+
+<script>
+  const mortgageForm = document.getElementById('mortgage-contact-form');
+
+  if (mortgageForm) {
+    mortgageForm.addEventListener('submit', function () {
+      const refField = document.getElementById('mortgage-ref');
+
+      sessionStorage.setItem('mortgage_form_submitted', 'true');
+      sessionStorage.setItem(
+        'mortgage_lead_source',
+        refField && refField.value ? 'direct_mail' : 'website'
+      );
+    });
+  }
 </script>
