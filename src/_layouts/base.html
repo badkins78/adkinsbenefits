@@ -22,12 +22,11 @@
         const script = document.createElement('script');
         script.src = 'https://www.googletagmanager.com/gtag/js?id=G-K8CN6D3YDH';
         script.async = true;
-        document.head.appendChild(script);
 
-        script.onload = function () {
-            gtag('js', new Date());
-            gtag('config', 'G-K8CN6D3YDH');
-        };
+        gtag('js', new Date());
+        gtag('config', 'G-K8CN6D3YDH');
+
+        document.head.appendChild(script);
     }
 
     window.addEventListener('load', function () {
@@ -118,6 +117,27 @@
         {% include "footer.html" %}
         <script defer src="/assets/js/nav.js"></script>
         <script defer src="/assets/js/dark.js"></script>
+        <script>
+            document.addEventListener('click', function (event) {
+                const phonelink = event.target.closest('a[href^="tel:"]');
+
+                if (!phoneLink) {
+                    return;
+                }
+
+                loadAnalytics();
+
+                gtag('event', 'phone_click', {
+                    page_path: window.location.pathname,
+                    link_location:
+                        phoneLink.closest('#footer') ? 'footer' :
+                        phoneLink.closest('#cs-contact') ? 'contact-section' :
+                        phoneLink.closest('#hero') ? 'hero' :
+                        phoneLink.closest('#cta') ? 'cta' :
+                        'other'
+                });
+            });
+        </script>
         <!--
         This script adds a class to the body after scrolling 100px
         and we used these body.scroll styles to create some on scroll
