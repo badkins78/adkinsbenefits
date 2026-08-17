@@ -236,6 +236,32 @@
      display: none;
    }
  }
+
+ /* ============================================ */
+/*              Mid-Page CTA                    */
+/* ============================================ */
+
+.mp-mid-cta {
+  padding: 2rem 1rem 3rem;
+  text-align: center;
+}
+
+.mp-mid-cta-container {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.mp-mid-cta p {
+  margin: 0 0 1.25rem;
+  font-size: var(--bodyFontSize);
+  line-height: 1.5em;
+  color: var(--bodyTextColor);
+}
+
+body.dark-mode .mp-mid-cta p {
+  color: var(--bodyTextColorWhite);
+}
  
  /* ============================================ */
 /*        Mortgage Protection Contact Form      */
@@ -258,6 +284,17 @@
 
 #mortgage-contact .mortgage-contact-intro {
   margin-bottom: 1.5rem;
+}
+
+#mortgage-contact .mailer-message {
+  margin: 0 0 1.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--primary);
+  border-radius: 0.5rem;
+  background: #f0f5ff;
+  color: var(--bodyTextColor);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 #mortgage-contact .mortgage-contact-topper {
@@ -344,6 +381,12 @@ body.dark-mode #mortgage-contact {
 body.dark-mode #mortgage-contact .mortgage-contact-container {
   background: var(--medium);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-mode #mortgage-contact .mailer-message {
+  background: var(--dark);
+  border-left-color: var(--primaryLight);
+  color: var(--bodyTextColorWhite);
 }
 
 body.dark-mode #mortgage-contact .mortgage-contact-topper {

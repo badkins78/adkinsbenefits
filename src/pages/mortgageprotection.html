@@ -28,16 +28,20 @@ eleventyNavigation:
   <div class="mortgage-contact-container">
 
     <div class="mortgage-contact-intro">
+      <p id="mailer-message" class="mailer-message" hidden>
+        Received a letter from us? You're in the right place. Complete the short form below
+        and we'll answer your questions about the coverage described in your letter.
+      </p>
       <span class="mortgage-contact-topper">
         Mortgage Protection
       </span>
 
-      <h2>Request More Information</h2>
+      <h2>See What It Would Take to Protect Your Mortgage</h2>
 
       <p>
-        Have questions about protecting your home and family? Send us your
-        information and we'll contact you to review the options that may be
-        available. There is no obligation to purchase anything.
+        We'll help you compare life insurance options designed around your
+        mortgage, income, family, and budget. There is no charge for our
+        services and no obligation to purchase coverage.
       </p>
     </div>
 
@@ -214,6 +218,22 @@ eleventyNavigation:
 </section>
 
 <!-- ============================================ -->
+<!--               Mid-Page CTA                  -->
+<!-- ============================================ -->
+
+<section class="mp-mid-cta">
+  <div class="mp-mid-cta-container">
+    <p>
+      Want to see what coverage might look like for your mortgage and budget?
+    </p>
+
+    <a href="#mortgage-contact" class="button-solid">
+      Review My Options
+    </a>
+  </div>
+</section>
+
+<!-- ============================================ -->
 <!--               Living Benefits                -->
 <!-- ============================================ -->
 
@@ -347,6 +367,14 @@ eleventyNavigation:
 
     if (refField) {
       refField.value = ref;
+    }
+
+    const mailerMessage = document.getElementById(
+      "mailer-message"
+    );
+
+    if (mailerMessage) {
+      mailerMessage.hidden = false;
     }
   })();
 </script>
