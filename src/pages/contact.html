@@ -33,32 +33,43 @@ eleventyNavigation:
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-          Have questions about your insurance or want to reveiw your current coverage?
+          Have questions about your insurance or want to review your current coverage?
           Call, text, or send us a message below. There is no charge for the review and
           no pressure to make a change.
         </p>
       </div>
       <label>
                 Name
-                <input required type="text" id="name" name="name" placeholder="Name">
+                <input required type="text" id="name" name="name" placeholder="Name" autocomplete="name">
       </label>
       <label>
-                Email
-                <input required type="email" id="email" name="email" placeholder="Email">
+                Email <span class="optional">(optional)</span>
+                <input type="email" id="email" name="email" placeholder="Email" autocomplete="email">
       </label>
       <label>
                 Phone
-                <input required type="tel" id="phone" name="phone" placeholder="Phone">
+                <input required type="tel" id="phone" name="phone" placeholder="Phone" autocomplete="tel">
       </label>
       <label>
-                How Did You Find Us
-                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+        What Can We Help With?
+        <select id="coverage-type" name="coverage-type">
+          <option value="">Select an option</option>
+          <option value="health-insurance">Health Insurance</option>
+          <option value="medicare">Medicare</option>
+          <option value="life-insurance">Life Insurance</option>
+          <option value="mortgage-protection">Mortgage Protection</option>
+          <option value="current-coverage-review">Review Current Coverage</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
       </label>
       <label class="cs-label-message">
                 Message
-                <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
+                <textarea required name="Message" id="message" placeholder="Tell us a little about what you need help with..."></textarea>
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
+      <p class="form-note">
+        We'll follow up personally to discuss your questions and next steps.
+      </p>
     </form>
     <div class="cs-right-section">
       <!--Email-->

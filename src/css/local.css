@@ -787,11 +787,12 @@
     margin-bottom: 2.25rem;
     text-align: center;
   }
-  #cta .number {
+  #cta .number a {
     font-weight: 300;
     font-size: min(9vw, 3rem);
     line-height: 1.2;
-    color: beige;
+    color: inherit;
+    text-decoration: none;
     position: relative;
     margin-bottom: 2rem;
   }
