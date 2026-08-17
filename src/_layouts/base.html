@@ -12,7 +12,13 @@
         dataLayer.push(arguments);
     }
 
-    window.addEventListener('load', function () {
+    function loadAnalytics() {
+        if (window.analyticsLoaded) {
+            return;
+        }
+
+        window.analyticsLoaded = true;
+
         const script = document.createElement('script');
         script.src = 'https://www.googletagmanager.com/gtag/js?id=G-K8CN6D3YDH';
         script.async = true;
@@ -21,9 +27,7 @@
             gtag('js', new Date());
             gtag('config', 'G-K8CN6D3YDH');
         };
-
-        document.head.appendChild(script);
-    });
+    }
 </script>
 
         <!-- End Google Tag Manager -->
