@@ -403,7 +403,7 @@
     color: var(--bodyTextColorWhite);
   }
 
-  body.dark.mode #services .service-link {
+  body.dark-mode #services .service-link {
     color: var(--primaryLight);
   }
 }
@@ -720,6 +720,9 @@
 }
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
+  body.dark-mode #reviews .cs-topper {
+    color: var(--primaryLight);
+  }
   body.dark-mode #reviews .cs-title,
   body.dark-mode #reviews .cs-text,
   body.dark-mode #reviews .cs-item-p,
