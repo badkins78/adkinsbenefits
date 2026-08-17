@@ -525,6 +525,39 @@
     color: var(--primary);
   }
 }
+/*-- -------------------------- -->
+<---    Section Backgrounds     -->
+<--- -------------------------- -*/
+
+.section-surface {
+  background: #f3f4f6;
+}
+
+.section-alt {
+  background: #e9ebee;
+}
+
+.content-card {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+body.dark-mode .section-surface {
+  background: var(--dark);
+}
+
+body.dark-mode .section-alt {
+  background: var(--medium);
+}
+
+body.dark-mode .content-card {
+  background: var(--medium);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
 /* Interior Page Header */
 /* Mobile */
 @media only screen and (min-width: 0em) {
