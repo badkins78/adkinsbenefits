@@ -117,6 +117,36 @@ eleventyNavigation:
         Request Information
       </button>
     </form>
+    <form
+      name="Mortgage QR Scan"
+      method="post"
+      data-netlify="true"
+      hidden
+    >
+      <input
+        type="hidden"
+        name="form-name"
+        value="Mortgage QR Scan"
+      >
+
+      <input
+        type="hidden"
+        name="mailer_ref"
+        value=""
+      >
+
+      <input
+        type="hidden"
+        name="scanned_at"
+        value=""
+      >
+
+      <input
+        type="hidden"
+        name="page_url"
+        value=""
+      >
+    </form>
   </div>
 </section>
 
@@ -358,7 +388,7 @@ eleventyNavigation:
     const ref = params.get("ref");
 
     if (!ref) {
-      return;
+      return
     }
 
     const refField = document.getElementById(
@@ -376,6 +406,47 @@ eleventyNavigation:
     if (mailerMessage) {
       mailerMessage.hidden = false;
     }
+
+    const scanKey =
+      "mortgage_qr_scan_notified:" + ref;
+
+    if (sessionStorage.getItem(scanKey)) {
+      return;
+    }
+
+    const body = new URLSearchParams({
+      "form-name": "Mortgage QR Scan",
+      "mailer_ref": ref,
+      "scanned_at": new Date().toISOString(),
+      "page_url": window.location.href
+    });
+
+    fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type":
+        "application/x-www-form-urlencoded"
+      },
+      body: body.toString()
+    })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error(
+            "QR scan submission failed"
+          );
+        }
+
+        sessionStorage.setItem(
+          scanKey,
+          "true"
+        );
+      })
+      .catch(function (error) {
+        console.error(
+          "Unable to record QR scan:",
+          error
+        );
+      });
   })();
 </script>
 
