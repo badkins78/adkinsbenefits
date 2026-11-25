@@ -314,6 +314,15 @@
     background-color: transparent;
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #cs-contact #cs-form select {
+    color-scheme: dark;
+    background-color: var(--dark);
+  }
+
+  body.dark-mode #cs-contact #cs-form select option {
+    background-color: var(--dark);
+    color: var(--bodyTextColorWhite);
+  }
   body.dark-mode #cs-contact #cs-form label::placeholder,
   body.dark-mode #cs-contact #cs-form input::placeholder,
   body.dark-mode #cs-contact #cs-form textarea::placeholder {

@@ -644,6 +644,31 @@ body.dark-mode .content-card {
     font-size: inherit;
   }
 }
+/* Thank-you page headers */
+#int-hero.thank-you-hero {
+  background-color: #243447;
+  border-bottom: none;
+}
+
+#int-hero.thank-you-hero::before {
+  display: none;
+}
+
+#int-hero.thank-you-hero h1 {
+  color: #ffffff;
+}
+
+body.dark-mode #int-hero.thank-you-hero {
+  background-color: var(--medium);
+}
+
+@media only screen and (min-width: 64em) {
+  #int-hero.thank-you-hero {
+    min-height: 0;
+    padding-top: 8.75rem;
+    padding-bottom: 2.5rem;
+  }
+}
 /* Footer */
 /* Mobile */
 @media only screen and (min-width: 0em) {
