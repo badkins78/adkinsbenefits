@@ -1,8 +1,8 @@
 ---
 pageName: Medicare Advantage
-blogTitle: What is Medicare Advantage?
-titleTag: What is Medicare Advantage?
-blogDescription: A detailed explanation of Medicare Advantage(Part C)
+blogTitle: What to Consider Before Choosing a Medicare Advantage Plan
+titleTag: Choosing a Medicare Advantage Plan
+blogDescription: Learn what to consider when comparing Medicare Advantage plans, including provider networks, prescription coverage, costs, travel and additional benefits.
 author: Bill Adkins
 date: 2023-03-31
 tags:
@@ -12,18 +12,123 @@ tags:
 image: /assets/images/blog/grandparents-holding-grandchildren.webp
 imageAlt: Elderly couple sitting outside, each holding a young child.
 ---
-A Medicare Advantage plan is a type of Medicare health plan that is offered by private insurance companies that have been approved by Medicare. Medicare Advantage plans provide all the benefits that are offered by original Medicare, but they may also offer additional benefits and services that are not covered by original Medicare.
 
-Medicare Advantage plans are required to cover all of the services that are covered by Medicare Part A (hospital insurance) and Medicare Part B (medical insurance), but they may also offer additional benefits such as prescription drug coverage, vision, hearing, and dental care. Some plans also offer additional benefits such as wellness programs, gym memberships, and transportation services.
+Choosing a Medicare Advantage plan involves more than finding
+a low monthly premium or a plan that offers additional benefits.
+The right coverage depends on your healthcare needs, budget,
+doctors, prescriptions, and personal circumstances.
 
-Medicare Advantage plans are offered as an alternative to traditional Medicare coverage, and they are designed to provide more comprehensive and coordinated healthcare. When you enroll in a Medicare Advantage plan, you are still enrolled in Medicare, but you receive your healthcare benefits through the private insurance company that is offering the plan.
+Medicare Advantage, also known as Medicare Part C, is an
+alternative way to receive your Medicare benefits through
+a private insurance company approved by Medicare.
 
-Medicare Advantage plans typically have networks of healthcare providers that you can choose from, and you may be required to choose a primary care physician who will coordinate your care. Many plans also require you to get a referral from your primary care physician before you can see a specialist.
+If you are unfamiliar with this type of coverage, start with
+our [Medicare Part C guide](/partc/).
 
-Medicare Advantage plans also have an annual out-of-pocket maximum, which is the most you will have to pay for covered services during a given year. Once you have reached the out-of-pocket maximum, the plan will pay for all covered services for the remainder of the year.
+## Are Your Doctors and Hospitals In the Network?
 
-One of the benefits of Medicare Advantage plans is that they often have lower out-of-pocket costs than traditional Medicare. Many plans also offer additional benefits and services that are not covered by traditional Medicare.
+Many Medicare Advantage plans use provider networks.
+Before enrolling, check whether your primary care physician,
+specialists, and preferred hospitals participate in the
+plan's network.
 
-It's important to carefully review the details of any Medicare Advantage plan you are considering and compare it to your healthcare needs and budget. Be sure to check which healthcare providers are included in the plan's network, what the plan's costs are, and what additional benefits and services are offered.
+You should also understand whether the plan requires
+referrals to see specialists and how it handles
+out-of-network care.
 
-At [Adkins Benefits](https://adkinsbenefits.com), we know all of this can be overwhelming. We are here to make it simple. If a Medicare Advantage plan is the right fit for you, we will make sure that you receive all of the additional benefits you are entitled to. You can find us on [facebook](https://www.facebook.com/adkinsbenefits), give us a call at 512-524-9826 or request we contact you by filling out the form [here](https://adkinsbenefits.com/contact/).
+Provider networks can change, so reviewing this information
+each year is important.
+
+## Are Your Prescription Medications Covered?
+
+Most Medicare Advantage plans include prescription drug
+coverage, but covered medications and costs vary by plan.
+
+When comparing plans, consider:
+
+- Whether your medications are on the plan's formulary.
+- Which drug tiers your medications fall under.
+- Whether your preferred pharmacy participates.
+- Whether medications require prior authorization,
+  step therapy, or have quantity limits.
+
+A plan that works well for someone else may not be the
+best choice for your particular prescriptions.
+
+## What Will Your Healthcare Actually Cost?
+
+Some Medicare Advantage plans offer a $0 monthly plan
+premium, but that does not mean healthcare is free.
+You generally must continue paying your Medicare Part B
+premium.
+
+Consider the total potential cost of coverage, including:
+
+- Monthly plan premiums.
+- Deductibles.
+- Doctor and specialist copayments.
+- Hospital and outpatient service costs.
+- Prescription drug expenses.
+- The annual out-of-pocket maximum for covered
+  Medicare Part A and Part B services.
+
+The lowest-premium plan is not necessarily the plan
+with the lowest overall healthcare costs.
+
+## How Often Do You Travel?
+
+If you travel frequently or spend part of the year
+outside Texas, consider how your plan handles routine
+medical care away from home.
+
+Medicare Advantage plans cover emergency and urgently
+needed services, but coverage for routine care outside
+a plan's service area can vary.
+
+Understanding these limitations before enrolling can
+help prevent unexpected expenses.
+
+## How Valuable Are the Additional Benefits?
+
+Some Medicare Advantage plans offer additional benefits,
+such as dental, vision, hearing, fitness, and
+transportation services.
+
+These benefits can be valuable, but coverage limits,
+eligibility requirements, participating providers,
+and other restrictions vary by plan.
+
+Evaluate these benefits alongside your medical and
+prescription drug coverage rather than making them
+the sole reason for choosing a plan.
+
+## Should You Consider Medicare Supplement Insurance Instead?
+
+Medicare Advantage is not the only option available
+to Medicare beneficiaries.
+
+Original Medicare combined with Medicare Supplement
+insurance and separate prescription drug coverage
+may be another option, depending on your eligibility
+and circumstances.
+
+Our [Medicare Supplement insurance guide](/medicare-supplement/)
+explains how this coverage works.
+
+## Comparing Medicare Advantage Plans in Texas
+
+Medicare Advantage plan availability varies by county.
+Even neighboring Texas communities may have different
+plans, provider networks, costs, and benefits.
+
+At Adkins Benefits, we help individuals in Austin and
+throughout Texas compare their Medicare coverage options
+based on their individual healthcare needs.
+
+There is no charge for our services, and there is no
+obligation to enroll.
+
+If you have questions about your current coverage or
+would like help comparing available plans,
+[contact Adkins Benefits](/contact/) or call us at
+512-524-9826.
