@@ -74,6 +74,38 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
+  // Automatically collect public pages for the XML sitemap.
+  eleventyConfig.addCollection('sitemap', (collectionApi) => {
+    return collectionApi.getAll()
+      .filter((item) => {
+        const inputPath = item.inputPath;
+        const url = item.url;
+
+        if (!url || !url.endsWith('/')) {
+          return false;
+        }
+
+        if (item.data.sitemapExclude === true) {
+          return false;
+        }
+
+        if (item.data.draft === true) {
+          return false;
+        }
+
+        if (url.includes('/thank-you/')) {
+          return false;
+        }
+
+        return (
+          inputPath === './src/index.html' ||
+          inputPath.startsWith('./src/pages/') ||
+          inputPath.startsWith('./src/blog/')
+        );
+      })
+      .sort((a, b) => a.url.localeCompare(b.url));
+  });
+
   return {
     dir: {
       input: 'src',

@@ -4,40 +4,9 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for item in collections.sitemap %}
   <url>
-    <loc>https://adkinsbenefits.com/</loc>
+    <loc>https://adkinsbenefits.com{{ item.url | escape }}</loc>
   </url>
-  <url>
-    <loc>https://adkinsbenefits.com/medicare/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/medicare-supplement/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/health-insurance/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/parta/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/partb/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/partc/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/partd/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/mortgageprotection/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/about/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/contact/</loc>
-  </url>
-  <url>
-    <loc>https://adkinsbenefits.com/reviews/</loc>
-  </url>
+{% endfor %}
 </urlset>
