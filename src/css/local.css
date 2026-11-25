@@ -378,6 +378,19 @@
     max-width: 22.3125em;
   }
 }
+/* Inline links within service card descriptions */
+#services .card p a {
+  font-size: inherit;
+  line-height: inherit;
+  color: #0056b3;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+body.dark-mode #services .card p a {
+  color: #90caf9;
+}
 /* Dark mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #services {
